@@ -27,8 +27,38 @@ console.log(x);
 
 // var is function scope (undifine) and let is block scope  (error)
 
-console.log(x);
+//console.log(x);
 
-var x=100;
+//var x=100;
 // let x=100;   // error
-console.log(x);
+//console.log(x);
+
+
+//const
+//const x=100;
+//console.log(x);
+//x=500;       // const value cannot be changed
+//console.log(x);
+
+// data types
+// primitive data types-----Number, String, Boolean, Null, Undefined
+// Non-Premitive(Objects)  -- Object, Array, Function, Date, Regx
+
+// let x=100;
+// console.log(typeof(x));
+
+// let price=12.9;
+// console.log(typeof(price));
+
+// let studentName="John";
+// console.log(typeof(studentName));
+
+// let flag=true;
+// console.log(typeof(flag));//boolean
+
+// let status=null;
+// console.log(typeof(status));  //object
+
+let value; 
+console.log(typeof(value));  //undefined
+
