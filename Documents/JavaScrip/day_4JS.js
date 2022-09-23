@@ -34,7 +34,6 @@ console.log(x);
 //console.log(x);
 
 
-
 //const
 //const x=100;
 //console.log(x);
@@ -61,5 +60,5 @@ console.log(x);
 // console.log(typeof(status));  //object
 
 let value; 
-console.log(typeof(value));
+console.log(typeof(value));  //undefined
 
