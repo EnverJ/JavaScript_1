@@ -18,7 +18,7 @@ console.log(x);
  //  x="Welcome";
 
 //let x="welcome";
-//console.log(x);
+//console.log(x);ss
 
 // 4. Multiple variable in single line
 //var x="Welcome",y=100;
