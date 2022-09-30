@@ -1,0 +1,56 @@
+<html>
+    <hea>
+        <body>
+            <input id="val1"/>
+            <input id="val2"/>
+            <br>
+            <button id="addbtn">Add</button>
+            <button id="subtn">sub</button>
+            <button id="mulbtn">Mul</button>
+            <button id="devbtn">Devide</button>
+            <p id="Result">  </p>
+        </body>
+        <script>
+            document.getElementById("addbtn").onclick=add2Numbes;
+            document.getElementById("subtn").onclick=sub2Numbes;
+            document.getElementById("mulbtn").onclick=Mul2Numbes;
+            document.getElementById("devbtn").onclick=devide2Numbes;
+    
+
+            function add2Numbes()
+            {
+               let a=document.getElementById("val1").value;
+               let b=document.getElementById("val2").value;
+               let res=parseInt(a)+parseInt(b);
+               document.getElementById("Result").innerHTML=res;
+
+            }
+
+            function sub2Numbes()
+            {
+               let a=document.getElementById("val1").value;
+               let b=document.getElementById("val2").value;
+               let res=parseInt(a)-parseInt(b);
+               document.getElementById("Result").innerHTML=res;
+
+            }
+            function Mul2Numbes()
+            {
+               let a=document.getElementById("val1").value;
+               let b=document.getElementById("val2").value;
+               let res=parseInt(a)*parseInt(b);
+               document.getElementById("Result").innerHTML=res;
+
+            }
+            function devide2Numbes()
+            {
+               let a=document.getElementById("val1").value;
+               let b=document.getElementById("val2").value;
+               let res=parseInt(a)/parseInt(b);
+               document.getElementById("Result").innerHTML=res;
+
+            }
+
+        </script>
+    </head>
+</html>
