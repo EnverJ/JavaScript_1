@@ -32,3 +32,27 @@ let person2={
 let objArray=[person1,person2];
 console.log(objArray);
 console.log(objArray[0]);
+
+let fruits=["mango","lemon","apple","banana"];
+console.log(fruits.length);
+
+// looping elemnt form array
+for(let i=0;i<=fruits.length-1;i++)
+{
+    console.log(fruits[i]);
+}
+console.log("++++++++++++++++++++=");
+//for of loop
+for(ele of fruits)
+{
+console.log(ele);
+}
+
+console.log("+++++++type of++++++++ ");
+
+console.log(typeof fruits);
+
+console.log(Array.isArray(fruits));
+
+
+
