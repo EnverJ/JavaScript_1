@@ -1,3 +1,4 @@
+// below methods are some useful array method
 let fruits=["Orange","Banana","Apple","Mango"];
 
 // toString & join()
@@ -59,6 +60,8 @@ fruits=["Orange","Banana","Apple","Mango","lemon"];
 console.log("Original arraya element "+fruits)
 fruits.reverse();
 console.log("after reversing elements of fruits array are "+fruits);
+// Original arraya element Orange,Banana,Apple,Mango,lemon
+// after reversing elements of fruits array are lemon,Mango,Apple,Banana,Orange
 
 
 
