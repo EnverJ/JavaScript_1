@@ -12,7 +12,7 @@ class Test
         console.log("this is m2 Non-static method....");
     }
 
-    
+
 }
 // 1. staic
 console.log(Test.a);  //10
