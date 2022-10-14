@@ -5,7 +5,7 @@ class student
     constructor()
     {
         let name, marks;
-
+ 
     }
     getName()
     {
