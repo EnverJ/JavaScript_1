@@ -9,3 +9,6 @@ console.log(obj["address"].streetAddress);  //89 8nf street
 console.log(obj.address.streetAddress);   //89 8nf street
 
 console.log(obj.PhoneNumber[0].type+" "+obj.PhoneNumber[0].number);  //home 111 111-111
+
+
+
